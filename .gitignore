@@ -1,6 +1,18 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
+### self made changes ###
+!ignore-file-everywhere/folderA
+ignore-file-everywhere/folderA/*
+!ignore-file-everywhere/folderA/not_ignore.txt
+
+!ignore-file-everywhere/folderA/folderA1
+ignore-file-everywhere/folderA/folderA1/*
+!ignore-file-everywhere/folderA/folderA1/not_ignore.txt
+
+#!ignore-file-everywhere/**/**/not_ignore.txt
+#!ignore-file-everywhere/**/not_ignore.txt
+
 ### macOS ###
 # General
 .DS_Store
@@ -9,7 +21,6 @@
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -31,3 +42,4 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+
